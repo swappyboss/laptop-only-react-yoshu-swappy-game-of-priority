@@ -53,19 +53,19 @@ export default function App() {
   };
 
   const handleCorrectClick = () => {
-    alert("Congratulations, you have selected the right answer 🎉");
+    alert("Congratulations, you win a Bebu Kissi 🎉");
   };
 
   return (
     <div className="app">
       <h1 className="question">
-        What is the Capital of Madhya Pradesh?
+        What is the highest priority for Bebu?
       </h1>
 
       <div className="options-row">
         {/* Correct Answer */}
         <button className="btn correct" onClick={handleCorrectClick}>
-          Bhopal
+          YoShu
         </button>
 
         {/* Wrong 1 */}
@@ -81,7 +81,7 @@ export default function App() {
               transform: `translate(${pos1.x}px, ${pos1.y}px)`
             }}
           >
-            Jabalpur
+            Career
           </button>
         </div>
 
@@ -98,7 +98,7 @@ export default function App() {
               transform: `translate(${pos2.x}px, ${pos2.y}px)`
             }}
           >
-            Indore
+            Health
           </button>
         </div>
       </div>
